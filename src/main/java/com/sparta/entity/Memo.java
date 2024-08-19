@@ -6,7 +6,6 @@ import jakarta.persistence.*;
 @Table(name = "memo") // 매핑할 테이블의 이름을 지정
 public class Memo {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     // nullable: null 허용 여부
